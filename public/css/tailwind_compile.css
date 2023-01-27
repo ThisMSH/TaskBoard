@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.input-container input:valid + span,
+.input-container input:focus + span,
+.input-container select:valid + span,
+.input-container select:focus + span {
+    color: rgb(24 24 27);
+    background-color: rgb(244 244 245);
+    font-size: 12px;
+    padding: 0 10px;
+    border-radius: 3px;
+    transform: translate(12px, -8px);
+}
+.input-container-reverse input:valid + span,
+.input-container-reverse input:focus + span{
+    color: rgb(244 244 245);
+    background-color: rgb(24 24 27);
+    font-size: 12px;
+    padding: 0 10px;
+    border-radius: 3px;
+    transform: translate(12px, -8px);
+}
+.input-container input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: rgb(244 244 245);
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,22 @@
+{
+  "name": "06.5-taskboard",
+  "version": "1.0.0",
+  "description": "Here where you can manage your tasks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./css/tailwind_compile.css -o ./css/tailwind_style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThisMSH/TaskBoard.git"
+  },
+  "author": "El Mahdi S.H.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThisMSH/TaskBoard/issues"
+  },
+  "homepage": "https://github.com/ThisMSH/TaskBoard#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
