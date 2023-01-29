@@ -1,4 +1,4 @@
-// ===== Switching between Sign In & Sign Up
+// ===== Switching between Sign In & Sign Up =====
 const signinBtn = document.querySelector('.signinBtn');
 const signUPBtn = document.querySelector('.signupBtn');
 const formBx = document.querySelector('.formBx');
@@ -18,7 +18,6 @@ signinBtn.onclick = function() {
 }
 
 // ===== Form Validation =====
-const signinInputs = document.querySelectorAll(".signin-input");
 const signupInputs = document.querySelectorAll(".signup-input");
 const signupParas = document.querySelectorAll(".signup-para");
 const validation = {
