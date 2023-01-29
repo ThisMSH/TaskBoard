@@ -1,4 +1,4 @@
-// ===== Switching between Sign In & Sign Up
+// ===== Switching between Sign In & Sign Up =====
 const signinBtn = document.querySelector('.signinBtn');
 const signUPBtn = document.querySelector('.signupBtn');
 const formBx = document.querySelector('.formBx');
