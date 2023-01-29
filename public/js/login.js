@@ -18,7 +18,6 @@ signinBtn.onclick = function() {
 }
 
 // ===== Form Validation =====
-const signinInputs = document.querySelectorAll(".signin-input");
 const signupInputs = document.querySelectorAll(".signup-input");
 const signupParas = document.querySelectorAll(".signup-para");
 const validation = {
