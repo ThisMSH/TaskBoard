@@ -12,7 +12,7 @@ class tasksModel extends DB {
     protected function insertTask($data) {
         $stmt = $this->conn()->prepare("INSERT INTO tasks (UserID, Title, Description, Deadline, State) VALUES (?, ?, ?, ?, ?);");
 
-        if(empty($data['Taskname'])) {
+        if(empty($data["TaskName"])) {
             echo "<script>alert('Please add a title to the task.');</script>";
             echo "<script>location.href = 'http://localhost/TaskBoard/home/dashboard';</script>";
             exit();
